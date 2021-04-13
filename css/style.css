@@ -1,0 +1,155 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+/* Header-nav */
+.my_navbar {
+    margin-left: 50px;
+    vertical-align: middle;
+    line-height: 34px;
+    height: 0px;
+}
+
+.my_navbar li{
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.my_navbar a {
+    margin-left: 20px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    font-weight: bold;
+}
+
+.btn-default {
+    color: blue;
+    background-color: #fff;
+    border-color: blue;
+}
+
+.btn {
+    padding: 4px 8px;
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: blue;
+}
+
+.navbar-default {
+    background-color: white;
+    border-color: none;
+}
+
+.navbar {
+    border: none;
+    margin-bottom: 0;
+}
+
+.navbar-header .navbar-brand > img {
+    height: 100%;
+}
+
+/* Header Central */
+.header_central {
+    height: 400px;
+    background-image: url('../img/bg-banner-home.jpg');
+    background-size: cover;
+}
+
+#header_central {
+    padding: 40px 0;
+}
+
+.header_central_characters > h1 { 
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.header_central_characters p {
+    color: lightgrey;
+}
+
+.deploy_started {
+    background-color: white;
+    border-radius: 5px;
+    /* min-height: 250px; */
+    padding: 20px 10px;
+}
+
+.deploy_started > h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.deploy_started > h4 {
+    font-weight: bold;
+    text-align: center;
+    color: dodgerblue;
+    font-size: 24px;
+}
+
+#deploy_started_p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#deploy_started_p > a {
+    text-decoration: underline;
+}
+
+.button_account> 
+.btn-primary.active, 
+.btn-primary:active, 
+.open>.dropdown-toggle.btn-primary {
+    width: 100%;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+}
+
+.button_google {
+    width: 100%;
+    margin-top: 5px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-image: url(../img/google-icon.png);
+    background-size: 6%;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#google_a {
+    width: 100%;
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+#google_p {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 10px;
+}
+
+#google_p > a {
+    text-decoration: underline;
+    color: dodgerblue;
+}
