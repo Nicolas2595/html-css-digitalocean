@@ -2,6 +2,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.wrapper_60 {
+    width: 60%;
+    margin: 0 auto;
+}
+
 /* Header */
 
 /* Header-nav */
@@ -156,7 +161,7 @@ body {
 
 /* Header bottom */
 .header_bottom {
-    background-color: lightgrey;
+    background-color: #F3F5F9;
     padding: 30px 0;
 }
 
@@ -176,4 +181,43 @@ body {
 #header_bottom_p {
     text-align: center;
     color: dodgerblue;
+}
+
+/* Main */
+
+/* Main deploy */
+.main_deploy {
+    padding: 40px 0;
+}
+
+.main_deploy  h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+#main_deploy_p1 {
+    text-align: center;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.main_deploy h5 {
+    font-weight: bold;
+}
+
+#main_deploy_p {
+    text-align: left;
+    font-size: 10px;
+}
+
+.main_deploy img {
+    height: 30px; 
+}
+
+.main_deploy_ul li {
+    margin-top: 10px;
+}
+
+.main_deploy_ul a {
+    color: grey;
 }
