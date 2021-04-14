@@ -27,7 +27,7 @@ body {
     margin-left: 20px;
     vertical-align: middle;
     text-decoration: none;
-    color: black; 
+    color: black;
     font-weight: bold;
 }
 
@@ -40,6 +40,7 @@ body {
     color: blue;
     background-color: #fff;
     border-color: blue;
+    font-weight: bold;
 }
 
 .btn {
@@ -77,7 +78,7 @@ body {
     padding: 40px 0;
 }
 
-.header_central_characters > h1 { 
+.header_central_characters > h1 {
     color: white;
     font-size: 45px;
     font-weight: bold;
@@ -116,9 +117,9 @@ body {
     text-decoration: underline;
 }
 
-.button_account> 
-.btn-primary.active, 
-.btn-primary:active, 
+.button_account>
+.btn-primary.active,
+.btn-primary:active,
 .open>.dropdown-toggle.btn-primary {
     width: 100%;
     background-color: dodgerblue;
@@ -190,7 +191,7 @@ body {
     padding: 40px 0;
 }
 
-.main_deploy  h3 {
+.main_deploy h3 {
     font-weight: bold;
     text-align: center;
 }
@@ -199,6 +200,7 @@ body {
     text-align: center;
     color: grey;
     margin-bottom: 30px;
+    font-size: 15px;
 }
 
 .main_deploy h5 {
@@ -211,13 +213,240 @@ body {
 }
 
 .main_deploy img {
-    height: 30px; 
+    height: 30px;
 }
 
-.main_deploy_ul li {
-    margin-top: 10px;
+.main_deploy_div {
+    border-left: 2px solid lightgrey;
 }
 
-.main_deploy_ul a {
+.main_deploy_div a {
     color: grey;
+    display: block;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+/* Main designed */
+.main_designed {
+    padding: 40px 0;
+    background-color: #F3F5F9;
+}
+
+.main_designed h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+#main_designed_p {
+    color: grey;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.my_designed > img {
+    height: 300px;
+}
+
+#chevron_left_designed {
+    font-size: 30px;
+    color: lightskyblue;
+    margin-right: 10px;
+}
+
+#chevron_right_designed {
+    font-size: 30px;
+    margin-left: 10px;
+    color: darkblue;
+}
+
+#main_designed_p1 {
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: grey;
+}
+
+.my_circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid dodgerblue;
+    display: inline-block;
+}
+
+.my_circle_blue {
+    background-color: dodgerblue;
+}
+
+/* Main features */
+.main_features {
+    padding: 40px 0;
+}
+
+.main_features > h3 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main_features img {
+    height: 28px;
+}
+
+.main_features h5 {
+    font-weight: bold;
+}
+
+.main_features p {
+    color: grey;
+}
+
+/* Main services */
+.main_services {
+    padding: 40px 0;
+    background-color: #073569;
+}
+
+.main_services > h3 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.my_services {
+    border-bottom: 1px solid white;
+    position: relative;
+}
+.my_services > h6 {
+    display: inline-block;
+    color: white;
+}
+#my_services_p {
+    display: inline-block;
+    color: white;
+    margin-left: 50px;
+    font-size: 9px;
+}
+.my_services a {
+    color: aquamarine;
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+    line-height: 33.33px;
+}
+
+/* Main development */
+.main_development {
+    background-color: lightgrey;
+    padding: 40px 0;
+}
+
+.main_development > h3{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+#chevron_left {
+    position: absolute;
+    left: 26%;
+    font-size: 30px;
+    color: lightskyblue;
+    line-height: 222px;
+}
+
+#chevron_right {
+    position: absolute;
+    right: 26%;
+    line-height: 222px;
+    color: darkblue;
+    font-size: 30px;
+}
+
+.my_development {
+    background-color: white;
+    border-radius: 5px;
+    padding: 50px 0;
+    position: relative;
+}
+
+.my_development  img {
+    height: 30px;
+}
+
+.wrapper_40 {
+    width: 40%;
+    margin: 0 auto;
+}
+
+#main_development_p {
+    color: grey;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.my_development h5 {
+    font-weight: bold;
+}
+
+.my_circle_top {
+    margin-top: 20px;
+}
+
+/* Main started */
+.main_started {
+    padding: 40px 0;
+    background-color: #073569;
+}
+
+.main_started > h3 {
+    color: white;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background-color: darkblue;
+    padding: 40px 0;
+}
+
+.footer img {
+    height: 30px;
+}
+
+#footer_p {
+    font-size: 11px;
+    color: grey;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+#footer_p1 {
+    font-size: 9px;
+    color: lightgrey;
+    margin: 0;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: grey;
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.footer h5 {
+    color: white;
+    font-weight: bold;
+}
+
+.footer_div a {
+    color: grey;
+    font-weight: bold;
+    margin-top: 5px;
+    display: block;
+    font-size: 11px;
 }
