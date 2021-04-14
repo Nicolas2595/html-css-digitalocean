@@ -72,6 +72,7 @@ body {
     /* height: 400px; */
     background-image: url('../img/bg-banner-home.jpg');
     background-size: cover;
+    padding-top: 50px;
 }
 
 #header_central {
